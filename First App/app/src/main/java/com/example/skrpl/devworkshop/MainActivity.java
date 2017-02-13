@@ -22,4 +22,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    
+    //This can also be used
+    /*
+    public void onClick(View v){
+        TextView tV1= (TextView) findViewById(R.id.tV1);
+        x++;
+        tV1.setText("Button Clicked "+x+" times");
+    }
+    */
 }
